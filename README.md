@@ -1,7 +1,3 @@
-# GPT Command which i had given
- think like i am 5 years old like wise give me explantion like that so when come again to visit my github readme file i will know the things which i had done today
----
-
 # 🧑‍💻 **Practical 1: Creating a Git Repository and Pushing to GitHub**
 
 ## 🧠 **What I Learned**
@@ -34,7 +30,7 @@ A hidden `.git` folder is created — it stores all version history.
 ### 🧾 **2. Create a New File**
 
 ```bash
-echo "I am Sai" >> sai.txt
+echo "I am Pratik" >> pratik.txt
 ```
 
 This creates a new file named **sai.txt** and adds the text inside it.
@@ -109,7 +105,7 @@ You’ll see:
 ### 💾 **8. Commit the Changes**
 
 ```bash
-git commit -m "Added sai.txt file with introduction text"
+git commit -m "Added pratik.txt file with introduction text"
 ```
 
 This creates a **snapshot** of your project with a message explaining what changed.
@@ -159,7 +155,7 @@ Next time, you can simply run `git push`.
 
 ```bash
 git init
-echo "I am Sai" >> sai.txt
+echo "I am Pratik" >> pratik.txt
 git branch -M main
 git remote add origin https://github.com/your-username/your-repo.git
 git remote -v
@@ -228,14 +224,14 @@ git checkout -b feature
 Option A — Use `vim`:
 
 ```bash
-vim sai.txt
+vim pratik.txt
 # press i to insert, type your text, Esc, :wq, Enter to save and quit
 ```
 
 Option B — Use echo:
 
 ```bash
-echo "hello i am sai" > sai.txt
+echo "hello i am pratik" > pratik.txt
 ```
 
 ---
@@ -253,7 +249,7 @@ See which files are untracked or modified on the `feature` branch.
 ### ✅ 6. Add the File to Staging
 
 ```bash
-git add sai.txt
+git add pratik.txt
 # or to add everything: git add .
 ```
 
@@ -262,7 +258,7 @@ git add sai.txt
 ### ✅ 7. Commit Your Changes
 
 ```bash
-git commit -m "Added sai.txt with introduction"
+git commit -m "Added pratik.txt with introduction"
 ```
 
 This saves a snapshot on the `feature` branch.
@@ -274,7 +270,7 @@ This saves a snapshot on the `feature` branch.
 If remote isn't set (usually isn't needed after clone), add it:
 
 ```bash
-git remote add origin https://github.com/PhapaleSai/College_repo.git
+git remote add origin https://github.com/pratik366/your_repository.git
 git remote -v
 ```
 
