@@ -189,17 +189,17 @@ Today, I learned how to:
 ### ✅ 1. Clone the Repository from GitHub
 
 ```bash
-git clone https://github.com/PhapaleSai/College_repo.git
+git clone https://github.com/pratik366/your_repo.git
 ```
 
-👉 Now a folder named `College_repo` is on your computer.
+👉 Now a folder named `your_repo` is on your computer.
 
 ---
 
 ### ✅ 2. Enter the Repository
 
 ```bash
-cd College_repo/
+cd your_repo/
 ls
 ```
 
@@ -325,14 +325,14 @@ If the wrong GitHub credentials are cached:
 ## 📌 Summary of Commands (updated order)
 
 ```bash
-git clone https://github.com/PhapaleSai/College_repo.git
-cd College_repo/
+git clone https://github.com/pratik366/your_repo.git
+cd your_repo/
 git checkout -b feature        # create & switch to feature branch first
 # create/edit file:
-vim sai.txt                    # or: echo "hello i am sai" > sai.txt
+vim pratik.txt                    # or: echo "hello i am pratik" > pratik.txt
 git status
-git add sai.txt                # or git add .
-git commit -m "Added sai.txt with introduction"
+git add pratik.txt                # or git add .
+git commit -m "Added pratik.txt with introduction"
 git remote add origin <repo-url>   # only if needed
 git remote -v                   # optional check
 git push origin feature
@@ -373,16 +373,16 @@ Today, I learned how to:
 This brings the GitLab project from the internet to my computer.
 
 ```bash
-git clone https://gitlab.com/sai_phapale-group/Sai_Phapale-project.git
+git clone https://gitlab.com/pratik_p-group/Pratik_P-project.git
 ```
 
-👉 Now a folder named `Sai_Phapale-project` is on my computer.
+👉 Now a folder named `Pratik_P-project` is on my computer.
 
 #### ✅ 2. **Checked What's Inside**
 
 ```bash
 ls
-cd Sai_Phapale-project/
+cd Pratik_P-project/
 ls
 ```
 
@@ -390,10 +390,10 @@ ls
 
 #### ✅ 3. **Created or Edited a File**
 
-I made or updated a file called `sai.txt` using the echo command.
+I made or updated a file called `pratik.txt` using the echo command.
 
 ```bash
-echo "Hello World" > sai.txt
+echo "Hello World" > pratik.txt
 ```
 
 👉 This creates a new file with the text "Hello World" inside it.
@@ -411,13 +411,13 @@ git status
 But wait! I forgot to add the file to the staging area. 😅 So I fixed that:
 
 ```bash
-git add sai.txt
+git add pratik.txt
 ```
 
 Then I saved my work with a message:
 
 ```bash
-git commit -m "Added new file sai.txt"
+git commit -m "Added new file pratik.txt"
 ```
 
 📝 This creates a snapshot of my changes.
@@ -438,7 +438,7 @@ git checkout feature
 Just to make sure Git knows where my GitLab repo is:
 
 ```bash
-git remote add origin https://gitlab.com/sai_phapale-group/Sai_Phapale-project.git
+git remote add origin https://gitlab.com/Pratik_P-group/Pratik_P-project.git
 git remote -v
 ```
 
@@ -566,18 +566,18 @@ ls
 ### 📄 3. Create a New File
 
 ```bash
-echo "i am sai" > sai.txt
+echo "i am pratik" > pratik.txt
 ls
 ```
 
-This makes a new file named **sai.txt** with the text *i am sai*.
+This makes a new file named **pratik.txt** with the text *i am pratik*.
 
 ---
 
 ### 💾 4. Add and Commit the File
 
 ```bash
-git add sai.txt
+git add pratik.txt
 git commit -m "the file is added"
 ```
 
@@ -601,7 +601,7 @@ git checkout -b feature
 git push origin feature
 ```
 
-This uploads the **feature** branch (with sai.txt) to Bitbucket.
+This uploads the **feature** branch (with pratik.txt) to Bitbucket.
 
 ---
 
@@ -647,8 +647,8 @@ Now my **main** branch also has **sai.txt**.
 ```
 git clone <repo-url>
 cd practice_check/
-echo "i am sai" > sai.txt
-git add sai.txt
+echo "i am pratik" > pratik.txt
+git add pratik.txt
 git commit -m "the file is added"
 git checkout -b feature
 git push origin feature
